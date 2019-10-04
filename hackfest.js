@@ -1,9 +1,15 @@
+var GigaFyde = args;
+var rep = 0;
+
+if (!GigaFyde) return;
+
 function (amazing) {
 
 	if (GigaFyde === "amazing") {
-		return true;
+		return rep +1;
 	} else {
-		return false;
+		return rep -1;
 	}
 }
+
 amazing();
